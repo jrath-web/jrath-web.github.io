@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 3;
+}
+
+.container {
+background-color:darkseagreen;
+}
+
+img {
+/*    width: 40%;    */
+}
+
+a {
+    text-decoration:none;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    display:inline-block;
+    padding-right: 10%;
+}
+li2{
+ font-size: 20px;
+color: saddlebrown;
+    
+}
+
+h3{
+    font-size: 60px;
+    color: darkseagreen;
+    padding: 20px;
+}
+ol{
+    display: inline-grid;
+    color: saddlebrown
+}
+
+li:hover {
+    /* background-color:;*/
+}
+
+a:link {
+    color:darkgreen;
+}
+a:visited {
+    color:darkgreen;
+}
+a:hover {
+    color:saddlebrown;
+    transition: 2s;
+}
+nav {
+    background-color: lightgoldenrodyellow;
+    width: 100vw;
+position: fixed;
+    /*    border: 10px red solid; 
+    box-sizing: border-box; */
+}
+.black {
+    border: black 2x dashed;
+}
+
+#synopsis {
+    border: 1px red solid;
+}
+.top {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+
+}
+.portrait {
+/*    padding-left: 20px;*/
+    width: 100%;
+    display: inline-block;
+}
+
+.portrait img {
+    width: 45%;
+}
+
+.bginfotext {
+    margin-right: auto;
+    vertical-align: top;
+    width: 45%;
+    display: inline-block;
+    color: black;
+}
+h1 {
+    font-size: 2em;
+    color: lightgoldenrodyellow;
+}
+p {
+color: saddlebrown;}
+
+
+.bginfotext2 {
+    margin-left: auto;
+    vertical-align: top;
+    width: 45%;
+    display:inline-block;
+    color: black;
+}
+
+.portrait2 {
+/*
+    margin-right: auto;
+    padding-right: 20px;
+*/
+    width: 45%;
+    display: inline-block;
+}
+.portrait2 img {
+    width: 100%;
+}
+
+i{
+    font-size: 50px;
+    color: darkgreen
+}
+
+.footer{
+  text-align: center
+}
+.bginfo {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.newsletter {
+    align-content: center;
+}
+.table {
+    align-content: center;
+}
+
+
+@media all and (min-width: 320px) and (max-width: 780px) {  
+
+}
+
+@media all and (min-width: 781px) and (max-width: 1080px) {
+   
+    }
+    
+}
+@media all and (min-width: 1081px) and (max-width: 6000px){
+
+}
+  
